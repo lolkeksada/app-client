@@ -28,7 +28,7 @@ function signup() {
     };
 
     $.ajax({
-        url: serverUrl + 'signup',
+        url: serverUrl + 'auth/signup',
         method: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(user),
