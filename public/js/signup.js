@@ -11,12 +11,13 @@ $(document).ready(function(e) {
             $('#message').html('Password do not match').css('color', 'red');
         }
     });
-
+ 
     $('#signupForm').submit(function(e) {
         e.preventDefault();
         signup();
     });
 });
+
 
 function signup() {
 
