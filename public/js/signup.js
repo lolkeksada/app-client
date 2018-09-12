@@ -1,4 +1,3 @@
-let serverUrl = 'http://localhost:8080/auth/';
 $(document).ready(function(e) {
     $('#signupForm input[type="submit"]').prop('disabled', true);
 
