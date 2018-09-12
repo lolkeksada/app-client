@@ -1,6 +1,7 @@
 $(document).ready(function(e) {
     $('#signupForm input[type="submit"]').prop('disabled', true);
 
+    
     $('#password, #passwordConfirm').on('keyup', function(e) {
         if($('#password').val() == $('#passwordConfirm').val()) {
             $('#signupForm input[type="submit"]').prop('disabled', false);
